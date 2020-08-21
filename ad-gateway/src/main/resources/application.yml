@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ad-gateway
+server:
+  port: 9000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/
