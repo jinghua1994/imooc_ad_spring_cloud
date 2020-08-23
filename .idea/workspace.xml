@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4230e3-7be9-4d80-8011-9965dfd148bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,43 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdPlanServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/entity/AdUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/constant/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +45,80 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+            <state relative-caret-position="-1575">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,46 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/CreateUserRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitResponse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/CommonResponseDataAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUserSerivce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,13 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ad-gateway/src/main/java/com/ad/imooc/ZuulGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ad-gateway/src/main/java/com/ad/filter/PreQuestFilter.java" />
-        <option value="$PROJECT_DIR$/ad-gateway/src/main/java/com/ad/filter/PostFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/vo/CommonResponse.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/annotation/IgnoreResponseAdvice.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/exception/AdException.java" />
@@ -212,6 +211,13 @@
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/AdUnitService.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitRequest.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitResponse.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeyWordRequest.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordResponse.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItRequest.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItResponse.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictResponse.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictRequest.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java" />
       </list>
     </option>
@@ -259,7 +265,9 @@
     <option name="width" value="1440" />
     <option name="height" value="804" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -479,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116960000" />
+    <option name="totallyTimeSpent" value="124334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="6" />
@@ -561,75 +569,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/vo/CommonResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/ad/filter/PreQuestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/ad/filter/PostFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/annotation/IgnoreResponseAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/conf/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/SponsorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1023,10 +962,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitItResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUnitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitKeywordRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/AdUnitDistrictRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1035,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/Impl/AdUnitServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+        <state relative-caret-position="-1575">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
