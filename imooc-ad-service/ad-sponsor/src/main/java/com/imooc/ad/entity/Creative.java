@@ -33,11 +33,11 @@ public class Creative {
     private Integer width;
 
     @Column(name = "size",nullable = false)
-    private Integer  size;
+    private Long  size;
 
     /* 时长， 只有视屏不为0*/
     @Column(name = "duration",nullable = false)
-    private Long  duration;
+    private Integer duration;
 
     //审核状态
     @Column(name = "audit_status",nullable = false)

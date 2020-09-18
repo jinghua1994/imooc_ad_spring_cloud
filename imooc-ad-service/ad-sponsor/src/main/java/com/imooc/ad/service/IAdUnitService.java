@@ -1,9 +1,10 @@
 package com.imooc.ad.service;
 
+import com.imooc.ad.entity.Creative;
 import com.imooc.ad.exception.AdException;
 import com.imooc.ad.vo.*;
 
-public interface IUnitService {
+public interface IAdUnitService {
 
     AdUnitResponse createUnit(AdUnitRequest request) throws AdException;
     AdUnitKeywordResponse createUnitKeyword(AdUnitKeywordRequest request)
@@ -15,6 +16,6 @@ public interface IUnitService {
     AdUnitDistrictResponse createUnitDistrict(AdUnitDistrictRequest request)
             throws AdException;
 
-
-
+        CreativeUnitResponse createCreativeUnit(CreativeUnitRequest creativeUnitRequest)
+            throws  AdException;
 }
