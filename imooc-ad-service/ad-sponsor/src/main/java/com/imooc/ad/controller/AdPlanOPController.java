@@ -44,7 +44,7 @@ public class AdPlanOPController {
 
 
 
-    @PostMapping("/get/AdPlan")
+    @PostMapping("/update/AdPlan")
     public AdPlanResponse   updateAdPlan(@RequestBody AdPlanRequest request) throws  AdException{
 
 

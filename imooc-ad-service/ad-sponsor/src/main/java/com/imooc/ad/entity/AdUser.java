@@ -15,7 +15,8 @@ import java.util.Date;
 @AllArgsConstructor
 public class AdUser {
     @Basic
-    @Column(name = "id")
+
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "username" , nullable=false)

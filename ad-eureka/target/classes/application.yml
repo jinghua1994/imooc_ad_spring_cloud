@@ -9,6 +9,7 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    instance-id: spingcloud-eureka
   client:
     fetch-registry: false
     register-with-eureka: false

@@ -53,7 +53,7 @@ public class AdUnitOPController  {
 
 
 
-    @PostMapping("/create/UnitDistrict")
+    @PostMapping("/create/UnitCreative")
     public CreativeUnitResponse createCreativeUnit(@RequestBody CreativeUnitRequest request)   throws AdException {
 
         log.info("ad-sponsor:createCreativeUnit->{}", JSON.toJSONString(request));
