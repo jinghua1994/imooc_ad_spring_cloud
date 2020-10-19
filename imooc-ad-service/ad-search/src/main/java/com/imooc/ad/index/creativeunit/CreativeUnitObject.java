@@ -14,7 +14,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CreativeUnitObject   {
 
-
+        private   long adId;
+        private   long unitId;
 
 
 
