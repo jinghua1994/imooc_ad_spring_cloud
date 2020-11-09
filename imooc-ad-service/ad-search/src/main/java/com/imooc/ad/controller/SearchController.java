@@ -5,6 +5,9 @@ import com.imooc.ad.annotation.IgnoreResponseAdvice;
 import com.imooc.ad.client.SponsorClient;
 import com.imooc.ad.client.vo.AdPlan;
 import com.imooc.ad.client.vo.AdPlanGetRequest;
+import com.imooc.ad.search.ISearch;
+import com.imooc.ad.search.vo.SearchRequest;
+import com.imooc.ad.search.vo.SearchResponse;
 import com.imooc.ad.vo.CommonResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +25,8 @@ import java.util.List;
 @RestController
 @Slf4j
 public class SearchController{
-
+    @Autowired
+    private  ISearch search;
 
         @Autowired
     private RestTemplate restTemplate;
@@ -40,7 +44,13 @@ public class SearchController{
 
     }
 
+    @PostMapping("/fetchAds")
+    public SearchResponse fetchAds(@RequestBody SearchRequest request) {
 
+        log.info("ad-search: fetchAds -> {}",
+                JSON.toJSONString(request));
+        return search.fetchAds(request);
+    }
 
 
         @IgnoreResponseAdvice

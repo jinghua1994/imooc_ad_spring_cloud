@@ -36,10 +36,10 @@ public class AdPlan {
     @Column(name="end_date",nullable=false)
     private Date endDate;
 
-    @Column(name="start_time",nullable=false)
-    private Date startTime;
+    @Column(name="create_time",nullable=false)
+    private Date createTime;
 
-    @Column(name="end_time",nullable=false)
+    @Column(name="update_time",nullable=false)
     private Date updateTime;
 
     public AdPlan(Long userId,String  planName,Date startDate,Date endDate){
@@ -48,8 +48,8 @@ public class AdPlan {
           this.planStatus= CommonStatus.VALID.getStatus();
           this.startDate=startDate;
           this.endDate=endDate;
-          this.startTime=new Date();
-          this.updateTime=this.startTime;
+          this.createTime=new Date();
+          this.updateTime=this.createTime;
 
     }
 

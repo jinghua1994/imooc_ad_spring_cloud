@@ -19,6 +19,6 @@ public class AdPlanGetRequest {
 
 
         return userId!=null
-                && CollectionUtils.isEmpty(ids);
+                && !CollectionUtils.isEmpty(ids);
     }
 }

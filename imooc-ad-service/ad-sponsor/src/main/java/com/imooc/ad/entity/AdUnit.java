@@ -31,7 +31,7 @@ public class AdUnit {
          private Long  budget;
         @Column(name="create_time",nullable=false)
         private Date createTime;
-        @Column(name="end_time",nullable=false)
+        @Column(name="update_time",nullable=false)
         private Date updateTime;
 
         public   AdUnit(Long planId,String unitName,Integer positionType,Long budget){

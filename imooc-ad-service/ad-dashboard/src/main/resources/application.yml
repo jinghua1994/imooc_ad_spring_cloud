@@ -1,0 +1,23 @@
+
+
+#  servlet-context-path 添加的是所有访问路径的前缀
+
+server:
+  port: 7002
+
+spring:
+  application:
+    name: eureka-client-ad-dashboard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/
+
+management:
+  endpoint:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

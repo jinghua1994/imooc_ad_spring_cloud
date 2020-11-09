@@ -1,0 +1,32 @@
+
+
+#  servlet-context-path 添加的是所有访问路径的前缀
+
+server:
+  port: 7000
+  servlet:
+    context-path: /ad-sponsor
+spring:
+  application:
+    name: eureka-client-ad-sponsor
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/imooc_ad_data?autoReconnect=true
+    username: root
+    password: 626494jinghua
+    tomcat:
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
+eureka:
+  instance:
+    instance-id: ad-sponsor
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/

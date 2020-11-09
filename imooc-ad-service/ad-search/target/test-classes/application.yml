@@ -1,0 +1,53 @@
+
+
+#  servlet-context-path 添加的是所有访问路径的前缀
+
+server:
+  port: 7001
+  servlet:
+    context-path: /ad-search
+spring:
+  application:
+    name: eureka-client-ad-search
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/imooc_ad_data?autoReconnect=true
+    username: root
+    password: 626494jinghua
+    tomcat:
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/
+    enabled: false
+
+
+feign:
+  hystrix:
+    enable: true
+
+management:
+  endpoint:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+adconf:
+  mysql:
+    host: 127.0.0.1
+    post: 3306
+    username: root
+    password: 626494jinghua
+    binlogName: ""
+    position: -1
+  kafka:
+    topic: ad-search-mysql-data

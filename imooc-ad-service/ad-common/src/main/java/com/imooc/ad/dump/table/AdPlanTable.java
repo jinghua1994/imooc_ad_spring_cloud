@@ -19,6 +19,4 @@ public class AdPlanTable {
     private  Integer  planStatus;
     private Date startDate;
     private Date  endDate;
-
-
 }

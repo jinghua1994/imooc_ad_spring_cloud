@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.core.PriorityOrdered;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -13,6 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author jinghua
  * @date 2020年 10月15日 10:56:03
  **/
+@Component
 public class DataTable  implements ApplicationContextAware, PriorityOrdered {
 
     private static ApplicationContext applicationContext;

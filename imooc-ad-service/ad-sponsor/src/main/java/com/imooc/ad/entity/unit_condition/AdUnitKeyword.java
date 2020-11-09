@@ -19,7 +19,7 @@ public class AdUnitKeyword {
     private Long id;
     @Column(name = "unit_id",nullable = false)
     private Long unitId;
-    @Column(name = "key_word",nullable = false)
+    @Column(name = "keyword",nullable = false)
     private String  keyword;
 
     public AdUnitKeyword(Long unitId,String keyword){
